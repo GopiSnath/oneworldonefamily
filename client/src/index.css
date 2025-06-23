@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(25, 95%, 53%);
+  --primary-foreground: hsl(0, 0%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Hindu spiritual color palette */
+  --saffron: hsl(25, 95%, 53%);
+  --divine-crimson: hsl(0, 82%, 45%);
+  --lotus-pink: hsl(328, 85%, 70%);
+  --sacred-white: hsl(0, 0%, 99%);
+  --peacock-blue: hsl(199, 95%, 40%);
+  --emerald-green: hsl(158, 82%, 39%);
+  --warm-cream: hsl(33, 100%, 96%);
+  --soft-gold: hsl(45, 86%, 89%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(25, 95%, 53%);
+  --primary-foreground: hsl(0, 0%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .sacred-gradient {
+    background: linear-gradient(135deg, hsl(25, 95%, 53%) 0%, hsl(0, 82%, 45%) 50%, hsl(328, 85%, 70%) 100%);
+  }
+  
+  .divine-border {
+    border-image: linear-gradient(45deg, hsl(25, 95%, 53%), hsl(0, 82%, 45%), hsl(158, 82%, 39%)) 1;
+  }
+  
+  .mandala-bg {
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsla(25, 95%, 53%, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsla(0, 82%, 45%, 0.1) 0%, transparent 50%);
+  }
+  
+  .floating-petals {
+    position: fixed;
+    top: -50px;
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px hsl(25, 95%, 53%), 0 0 20px hsl(25, 95%, 53%), 0 0 30px hsl(25, 95%, 53%); }
+  to { box-shadow: 0 0 20px hsl(25, 95%, 53%), 0 0 30px hsl(25, 95%, 53%), 0 0 40px hsl(25, 95%, 53%); }
+}
+
+@keyframes petals {
+  0% { transform: translateY(-100vh) rotate(0deg); }
+  100% { transform: translateY(100vh) rotate(360deg); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.animate-petals {
+  animation: petals 8s linear infinite;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}

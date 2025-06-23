@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "events": "Events",
+    "donate": "Donate",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Divine Blessings",
+    "subtitle": "Angalaparameshwari Trust",
+    "description": "Welcome to our sacred spiritual haven, where divine blessings flow eternally. Experience the profound peace and spiritual awakening through our temple's ancient traditions.",
+    "beginJourney": "Begin Your Journey",
+    "watchDarshan": "Watch Virtual Darshan"
+  },
+  "about": {
+    "title": "Sacred History",
+    "description": "Our spiritual journey began decades ago with a divine vision to create a sacred space where devotees can experience the eternal presence of Angalaparameshwari.",
+    "foundation": {
+      "title": "Divine Foundation",
+      "description": "Established with the blessings of revered saints and spiritual masters, our trust embodies the ancient wisdom of Hindu traditions."
+    },
+    "mission": {
+      "title": "Sacred Mission",
+      "description": "To preserve and propagate the divine teachings while providing spiritual solace to all devotees seeking enlightenment."
+    },
+    "service": {
+      "title": "Community Service",
+      "description": "Through various seva programs, we serve humanity and spread the message of love, compassion, and spiritual unity."
+    }
+  },
+  "gallery": {
+    "title": "Divine Darshan",
+    "description": "Immerse yourself in the divine beauty of our sacred spaces and witness the celestial presence that graces our temple.",
+    "sacredDeity": "Sacred Deity",
+    "templeArchitecture": "Temple Architecture",
+    "festivalCelebrations": "Festival Celebrations",
+    "sacredLotus": "Sacred Lotus",
+    "innerSanctum": "Inner Sanctum",
+    "sacredRituals": "Sacred Rituals"
+  },
+  "events": {
+    "title": "Sacred Events",
+    "description": "Join us in celebrating the divine festivals and spiritual gatherings that illuminate our path to enlightenment."
+  },
+  "donate": {
+    "title": "Sacred Seva",
+    "description": "Your generous contributions help us maintain our sacred spaces and continue our spiritual mission of serving humanity.",
+    "contributeNow": "Contribute Now",
+    "progress": "Progress"
+  },
+  "contact": {
+    "title": "Divine Connection",
+    "description": "Connect with us for spiritual guidance, temple services, or to join our divine community.",
+    "visitTemple": "Visit Our Sacred Temple",
+    "templeAddress": "Temple Address",
+    "phone": "Phone",
+    "email": "Email",
+    "templeTimings": "Temple Timings",
+    "timings": {
+      "morning": "Morning: 5:30 AM - 12:00 PM",
+      "evening": "Evening: 4:00 PM - 9:00 PM"
+    },
+    "form": {
+      "title": "Send Your Prayer Request",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "prayerRequest": "Prayer Request",
+      "prayerPlaceholder": "Share your prayer request or message...",
+      "submit": "Send Prayer Request",
+      "namePlaceholder": "Your name",
+      "phonePlaceholder": "Your phone number",
+      "emailPlaceholder": "your.email@example.com"
+    }
+  },
+  "footer": {
+    "description": "A sacred space dedicated to spiritual growth, divine blessings, and serving humanity through ancient Hindu traditions.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "connect": "Connect With Us",
+    "followUs": "Follow us for daily spiritual updates and temple announcements.",
+    "copyright": "© 2024 Angalaparameshwari Trust. All rights reserved. | Designed with divine blessings",
+    "servicesList": {
+      "dailyDarshan": "Daily Darshan",
+      "specialPujas": "Special Pujas",
+      "weddingServices": "Wedding Services",
+      "spiritualCounseling": "Spiritual Counseling",
+      "communityKitchen": "Community Kitchen"
+    }
+  }
+}
