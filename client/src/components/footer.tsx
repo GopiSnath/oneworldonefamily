@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export function Footer() {
   const { t } = useTranslation();
+  const subtitleLines = t('hero.subtitle', { returnObjects: true }) as string[];
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -27,7 +28,7 @@ export function Footer() {
 
   const services = [
     'dailyDarshan',
-    'specialPujas', 
+    'specialPujas',
     'weddingServices',
     'spiritualCounseling',
     'communityKitchen'
@@ -51,11 +52,10 @@ export function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center text-xl">
-                  ॐ
-                </div>
-                <h3 className="font-cinzel text-xl font-bold">{t('hero.subtitle')}</h3>
+              <div className="font-cinzel text-sm md:text-base text-orange-500 mb-4 leading-tight">
+                {subtitleLines.map((line, index) => (
+                  <div key={index}>{line}</div>
+                ))}
               </div>
               <p className="text-white/80 leading-relaxed">
                 {t('footer.description')}

@@ -1,40 +1,166 @@
-import { motion } from "framer-motion";
+import { motion, px } from "framer-motion";
 import { useTranslation } from 'react-i18next';
+import templeImg from '../assets/images/img.jpg'; // path should match your actual image location
+import templeImg1 from '../assets/images/img1.jpg'; // path should match your actual image location
+import templeImg2 from '../assets/images/img2.jpg'; // path should match your actual image location
+import templeImg3 from '../assets/images/img3.jpg'; // path should match your actual image location
+import templeImg4 from '../assets/images/img4.jpg'; // path should match your actual image location
+import templeImg5 from '../assets/images/img5.jpg'; // path should match your actual image location
+import templeImg6 from '../assets/images/img6.jpg'; // path should match your actual image location
+import templeImg7 from '../assets/images/img7.jpg'; // path should match your actual image location
+import templeImg8 from '../assets/images/img8.jpg'; // path should match your actual image location
+import templeImg9 from '../assets/images/img9.jpg'; // path should match your actual image location
+import templeImg10 from '../assets/images/img10.jpg'; // path should match your actual image location
+import templeImg11 from '../assets/images/img11.jpg'; // path should match your actual image location
+import templeImg12 from '../assets/images/img12.jpg'; // path should match your actual image location
+import templeImg13 from '../assets/images/img13.jpg'; // path should match your actual image location
+import templeImg14 from '../assets/images/img14.jpg'; // path should match your actual image location
+import templeImg15 from '../assets/images/img15.jpg'; // path should match your actual image location
+import templeImg16 from '../assets/images/img16.jpg'; // path should match your actual image location
+import templeImg17 from '../assets/images/img17.jpg'; // path should match your actual image location
+import templeImg18 from '../assets/images/img18.jpg'; // path should match your actual image location
+import templeImg19 from '../assets/images/img19.jpg'; // path should match your actual image location
+import templeImg20 from '../assets/images/img20.jpg'; // path should match your actual image location
+import templeImg21 from '../assets/images/img21.jpg'; // path should match your actual image location
+import templeImg22 from '../assets/images/img22.jpg'; // path should match your actual image location
+
 
 export function GallerySection() {
   const { t } = useTranslation();
 
   const galleryItems = [
-    {
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
-      title: t('gallery.sacredDeity'),
-      alt: "Golden deity statue with intricate jewelry and decorations"
+       {
+  image: templeImg1, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
     },
-    {
-      image: "https://images.unsplash.com/photo-1509233725247-49e657c54213?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
-      title: t('gallery.templeArchitecture'),
-      alt: "Ancient temple with ornate carved pillars and traditional architecture"
+     {
+  image: templeImg2, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
     },
-    {
-      image: "https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
-      title: t('gallery.festivalCelebrations'),
-      alt: "Colorful Hindu festival celebration with devotees and decorations"
+     {
+  image: templeImg3, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
     },
-    {
-      image: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
-      title: t('gallery.sacredLotus'),
-      alt: "Golden lotus flowers floating on sacred water with divine lighting"
+     {
+  image: templeImg4, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
     },
-    {
-      image: "https://images.unsplash.com/photo-1544427920-c49ccfb85579?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
-      title: t('gallery.innerSanctum'),
-      alt: "Serene temple interior with ornate decorations and divine lighting"
+     {
+  image: templeImg5, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
     },
-    {
-      image: "https://images.unsplash.com/photo-1518398046578-8cca57782e17?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
-      title: t('gallery.sacredRituals'),
-      alt: "Sacred ceremony with devotees offering prayers in traditional temple setting"
-    }
+     {
+  image: templeImg6, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg7, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg8, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg9, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg10, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg11, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg12, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg13, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg14, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg15, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg16, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg17, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg18, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+     {
+  image: templeImg19, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+         {
+  image: templeImg20, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+         {
+  image: templeImg21, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
+         {
+  image: templeImg22, // replace with actual import or image path
+  title: t('gallery.sacredDeity'),
+  alt: "Meditating sage in orange robe with sacred threads",
+  className: "w-[480px] h-[480px]"
+    },
   ];
 
   return (
@@ -67,11 +193,13 @@ export function GallerySection() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               whileHover={{ scale: 1.02 }}
             >
-              <img 
-                src={item.image}
-                alt={item.alt}
-                className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500" 
-              />
+            
+            <img 
+            src={item.image}
+            alt={item.alt}
+            className={item.className}
+            />
+            
               <div className="absolute inset-0 bg-gradient-to-t from-red-700/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="absolute bottom-4 left-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="font-cinzel text-xl font-semibold">{item.title}</h3>

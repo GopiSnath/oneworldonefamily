@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
+import templeImg from '../assets/images/image.jpg'; // path should match your actual image location
+
 
 export function AboutSection() {
   const { t } = useTranslation();
@@ -53,9 +55,9 @@ export function AboutSection() {
           >
             {/* Beautiful temple architecture details */}
             <img 
-              src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              src={templeImg} 
               alt="Intricate temple architecture with carved pillars and ornate details" 
-              className="rounded-2xl shadow-xl w-full h-auto" 
+               className="w-[800px] h-[700px]" 
             />
           </motion.div>
 

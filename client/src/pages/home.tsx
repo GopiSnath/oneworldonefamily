@@ -11,8 +11,8 @@ import { Footer } from "@/components/footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-yellow-50 font-inter overflow-x-hidden">
-      <title>Angalaparameshwari Trust - Divine Spiritual Haven</title>
-      <meta name="description" content="Welcome to Angalaparameshwari Trust, a sacred spiritual haven where divine blessings flow eternally. Experience profound peace through ancient Hindu traditions, temple services, and spiritual guidance." />
+      <title>One World One Family</title>
+      <meta name="description" content="Welcome to ArulMigu Aadhi Angala Parameswari Amman Maha Sakthi Beedam, a sacred spiritual haven where divine blessings flow eternally. Experience profound peace through ancient Hindu traditions, temple services, and spiritual guidance." />
       
       <FloatingPetals />
       <Navbar />

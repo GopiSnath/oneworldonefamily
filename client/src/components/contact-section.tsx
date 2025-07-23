@@ -71,19 +71,19 @@ export function ContactSection() {
     {
       icon: MapPin,
       title: t('contact.templeAddress'),
-      content: "123 Sacred Street, Divine City\nTamil Nadu, India - 600001",
+      content: " ShivanKoodal Sitthar Mahan Sri Rajabalaji Swamigal\nManaging Trustee\n No. 4/161 South Main Road, Paravakkottai(P.O)\n Mannarkudi(Tk),Thiruvaroor(Dt), \nTamil Nadu, India - 614015",
       color: "bg-orange-500"
     },
     {
       icon: Phone,
       title: t('contact.phone'),
-      content: "+91 98765 43210\n+91 87654 32109",
+      content: "+91 86674 25152\n+91 98113 03006(New Delhi)",
       color: "bg-pink-500"
     },
     {
       icon: Mail,
       title: t('contact.email'),
-      content: "info@angalaparameshwaritrust.org\nseva@angalaparameshwaritrust.org",
+      content: "mahakumbha144@gmail.com\n www.oneworldonefamilytemple.org",
       color: "bg-green-500"
     },
     {
