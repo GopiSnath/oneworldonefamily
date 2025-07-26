@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,7 +25,7 @@
   --destructive-foreground: hsl(60, 9.1%, 97.8%);
   --ring: hsl(20, 14.3%, 4.1%);
   --radius: 0.5rem;
-  
+
   /* Hindu spiritual color palette */
   --saffron: hsl(25, 95%, 53%);
   --divine-crimson: hsl(0, 82%, 45%);
@@ -60,7 +62,7 @@
 
 @layer base {
   * {
-   @apply border;
+    @apply border;
   }
 
   body {
@@ -72,17 +74,17 @@
   .sacred-gradient {
     background: linear-gradient(135deg, hsl(25, 95%, 53%) 0%, hsl(0, 82%, 45%) 50%, hsl(328, 85%, 70%) 100%);
   }
-  
+
   .divine-border {
     border-image: linear-gradient(45deg, hsl(25, 95%, 53%), hsl(0, 82%, 45%), hsl(158, 82%, 39%)) 1;
   }
-  
+
   .mandala-bg {
-    background-image: 
+    background-image:
       radial-gradient(circle at 25% 25%, hsla(25, 95%, 53%, 0.1) 0%, transparent 50%),
       radial-gradient(circle at 75% 75%, hsla(0, 82%, 45%, 0.1) 0%, transparent 50%);
   }
-  
+
   .floating-petals {
     position: fixed;
     top: -50px;
@@ -92,18 +94,33 @@
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
+  0%, 100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 @keyframes glow {
-  from { box-shadow: 0 0 10px hsl(25, 95%, 53%), 0 0 20px hsl(25, 95%, 53%), 0 0 30px hsl(25, 95%, 53%); }
-  to { box-shadow: 0 0 20px hsl(25, 95%, 53%), 0 0 30px hsl(25, 95%, 53%), 0 0 40px hsl(25, 95%, 53%); }
+  from {
+    box-shadow: 0 0 10px hsl(25, 95%, 53%), 0 0 20px hsl(25, 95%, 53%), 0 0 30px hsl(25, 95%, 53%);
+  }
+
+  to {
+    box-shadow: 0 0 20px hsl(25, 95%, 53%), 0 0 30px hsl(25, 95%, 53%), 0 0 40px hsl(25, 95%, 53%);
+  }
 }
 
 @keyframes petals {
-  0% { transform: translateY(-100vh) rotate(0deg); }
-  100% { transform: translateY(100vh) rotate(360deg); }
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
 }
 
 .animate-float {
@@ -117,8 +134,6 @@
 .animate-petals {
   animation: petals 8s linear infinite;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 .font-cinzel {
   font-family: 'Cinzel', serif;
