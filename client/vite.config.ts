@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path'; // ✅ Add this
 
 export default defineConfig({
-  base: './',
+  base: '/oneworldonefamily/',
   plugins: [react()],
   resolve: {
     alias: {
