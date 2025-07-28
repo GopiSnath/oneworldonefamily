@@ -15,14 +15,14 @@ export default function Home() {
       <meta name="description" content="Welcome to ArulMigu Aadhi Angala Parameswari Amman Maha Sakthi Beedam, a sacred spiritual haven where divine blessings flow eternally. Experience profound peace through ancient Hindu traditions, temple services, and spiritual guidance." />
       
       <FloatingPetals />
-      <Navbar />
+       {/*<Navbar />*/}
       <HeroSection />
       <AboutSection />
-      <GallerySection />
+       {/* <GallerySection />
       <EventsSection />
-     {/* <DonationSection />
-      <ContactSection />*/}
-      <Footer />
+     <DonationSection />
+      <ContactSection />
+      <Footer />*/}
     </div>
   );
 }
