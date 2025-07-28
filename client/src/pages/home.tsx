@@ -4,8 +4,8 @@ import { HeroSection } from "@/components/hero-section";
 import { AboutSection } from "@/components/about-section";
 import { GallerySection } from "@/components/gallery-section";
 import { EventsSection } from "@/components/events-section";
-import { DonationSection } from "@/components/donation-section";
-import { ContactSection } from "@/components/contact-section";
+{/*import { DonationSection } from "@/components/donation-section";
+import { ContactSection } from "@/components/contact-section";*/}
 import { Footer } from "@/components/footer";
 
 export default function Home() {
@@ -20,8 +20,8 @@ export default function Home() {
       <AboutSection />
       <GallerySection />
       <EventsSection />
-      <DonationSection />
-      <ContactSection />
+     {/* <DonationSection />
+      <ContactSection />*/}
       <Footer />
     </div>
   );
