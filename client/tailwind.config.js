@@ -2,14 +2,7 @@
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx,html}"
-  ],
-  safelist: [
-    'text-red-500',
-    'bg-blue-500',
-    'hidden',
-    'block',
-    // add more as needed
+    "./src/**/*.{js,jsx,ts,tsx,html}"
   ],
   theme: {
     extend: {},
