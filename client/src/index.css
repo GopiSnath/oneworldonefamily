@@ -60,15 +60,6 @@
   --radius: 0.5rem;
 }
 
-@layer base {
-  * {
-    @apply border;
-  }
-
-  body {
-    @apply font-sans antialiased bg-background text-foreground overflow-x-hidden;
-  }
-}
 
 @layer utilities {
   .sacred-gradient {
