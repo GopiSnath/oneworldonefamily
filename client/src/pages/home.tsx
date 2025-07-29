@@ -16,7 +16,7 @@ export default function Home() {
       
       <FloatingPetals />
        {/*<Navbar />*/}
-     {/*  <HeroSection />*/}
+      <HeroSection />
       <AboutSection />
        {/* <GallerySection />
       <EventsSection />
