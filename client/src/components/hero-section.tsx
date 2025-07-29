@@ -55,24 +55,6 @@ export function HeroSection() {
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
               {t('hero.description')}
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button 
-                className="px-8 py-4 bg-orange-500 text-white rounded-full font-semibold hover:bg-red-600 transition-colors shadow-lg hover:shadow-xl"
-                size="lg"
-              >
-                <Heart className="mr-2 h-5 w-5" />
-                {t('hero.beginJourney')}
-              </Button>
-              <Button 
-                variant="outline"
-                className="px-8 py-4 border-2 border-orange-500 text-orange-500 rounded-full font-semibold hover:bg-orange-500 hover:text-white transition-colors"
-                size="lg"
-              >
-                <Play className="mr-2 h-5 w-5" />
-                {t('hero.watchDarshan')}
-              </Button>
-            </div>
           </motion.div>
 
           <motion.div 
