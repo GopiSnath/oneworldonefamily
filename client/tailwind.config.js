@@ -1,24 +1,20 @@
-// client/tailwind.config.js
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+const config = {
   content: [
-    "./src/**/*.{html,js,ts,jsx,tsx}",     // ✅ your components
-    "./index.html",                        // ✅ Vite entry point
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      // custom styles here
+    },
   },
-  safelist: [                              // ✅ Force Tailwind to keep these
-    'mandala-bg',
-    'sacred-gradient',
-    'divine-border',
-    'floating-petals',
-    'text-red-500',
-    'bg-yellow-100',
-    'border-image',
-    'bg-gradient-to-r',
-    'from-purple-500',
-    'via-pink-500',
-    'to-yellow-500',
+  safelist: [
+    'text-white', 'text-black', 'text-orange-500', 'bg-white', 'bg-black',
+    'font-bold', 'font-cinzel', 'text-xl', 'text-2xl', 'text-3xl',
+    'mt-4', 'mb-4', 'p-4', 'pt-4', 'pb-4', 'rounded-xl', 'rounded-2xl',
+    'uppercase', 'tracking-wide', 'text-center', 'animate-glow',
   ],
-  plugins: [],
-}
+};
+
+export default config;
