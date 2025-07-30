@@ -1,6 +1,6 @@
 [build]
-base = "client"
-command = "npm run build"
+base = ""             # <--- This should be empty or removed
+command = "cd client && npm install && npm run build"
 publish = "client/dist"
 
 [[redirects]]
