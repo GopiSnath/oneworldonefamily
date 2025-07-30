@@ -1,6 +1,5 @@
 [build]
-base = ""             # <--- This should be empty or removed
-command = "cd client && npm install && npm run build"
+command = "cd client && npm install --legacy-peer-deps && npm run build"
 publish = "client/dist"
 
 [[redirects]]
