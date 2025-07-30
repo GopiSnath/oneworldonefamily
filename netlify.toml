@@ -1,7 +1,6 @@
 [build]
-# REMOVE base — it's causing issues!
 command = "cd client && npm install --legacy-peer-deps && npm run build"
-publish = "client/dist"
+publish = "dist"
 
 [[redirects]]
 from = "/*"
